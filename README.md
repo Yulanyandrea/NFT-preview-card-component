@@ -35,6 +35,8 @@ Hover status final:
 ![text1_status](https://user-images.githubusercontent.com/79812118/196825751-4aedf294-e1cc-4b25-88e1-36be7ff347df.jpg)
 ![name_status](https://user-images.githubusercontent.com/79812118/196825829-824ce084-ef66-47cd-b749-e76f6d07ae09.jpg)
 
+Que aprendi?
 
+El conepto de box aun es bastante dificil de manipular ya que la estructura del html es la base para saber como la pagina tendra un comportamiento al modificar cada uno de los contenedores. Por ello es necesario seguir practicando para entender mejor el concepto de flex 
 
 
