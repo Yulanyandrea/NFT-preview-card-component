@@ -136,6 +136,7 @@ hr{
 @media (min-width:1200px) {
     .container{
         width: 30%;
+        margin-top: 10%;
     }
     .p0{
         font-size: 18px;
