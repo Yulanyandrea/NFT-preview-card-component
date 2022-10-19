@@ -5,6 +5,9 @@
     background-color:hsl(217, 54%, 11%) ;
     font-family: 'Outfit', sans-serif;
     border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .principal_imagen {
@@ -14,16 +17,26 @@
     margin-top: 10%;
 }
 
-#first {
+.first {
     width: 70%;
     border-radius: 20px; 
       
 }
 
-.principal_imagen img:hover {
-    background-color: red;
-    background-image: url('C:\Users\andra\OneDrive\Documents\Programacion\Make it real\HTML,CSS\Reto5_NFT-preview-card-component\NFT-preview-card-component\icon-view.svg') no-repeat;
-  }
+.eye{
+    display: none;
+    position: absolute;
+    /* background: rgba(255,255,255,.4); */
+}
+
+.first:hover + .eye{
+    display: block;
+}
+
+.first:hover{
+    filter: opacity(0.2);
+}
+
 
 .paragraph{
     color: white;
@@ -35,6 +48,10 @@
 
 h1{
     font-size: 30px;
+}
+
+h1:hover{
+    color: aqua;
 }
 
 p{
@@ -89,6 +106,7 @@ hr{
 
 #boy{
     width: 10%;
+    height: 10%;
     border: 2px solid white;
     border-radius: 40px;
 }
@@ -105,5 +123,81 @@ hr{
     margin-left: 0.5rem;
 }
 
+.name:hover{
+    color: aqua;
+}
 
+@media (min-width:300px) {
+    .container{
+        width: 100%;
+    }
+    
+}
+@media (min-width:1200px) {
+    .container{
+        width: 30%;
+    }
+    .p0{
+        font-size: 18px;
+    }
+
+    #p1{
+        font-size: 18px;
+    }
+
+    #p2{
+        font-size: 18px;
+    }
+
+    .feet{
+        margin-top: 3%;
+    }
+
+    #boy{
+        border-radius: 58px;
+    }
+
+    #p3{
+        font-size: 18px; 
+    }
+    
+    
+}
+
+@media (min-width:2000px) {
+    .p0{
+        font-size: 35px;
+    }
+
+    #diamon{
+        max-width: 40px;
+        max-height: 35px;
+    }
+
+    #p1{
+        font-size: 30px;
+    }
+
+    #p2{
+        font-size: 33px;
+    }
+
+    #clock{
+        max-width: 40px;
+        max-height: 35px;
+    }
+
+    .feet{
+        margin-top: 3%;
+    }
+
+    #boy{
+        border-radius: 65px;
+    }
+
+    #p3{
+        font-size: 33px; 
+    }
+    
+}
  
