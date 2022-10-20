@@ -28,7 +28,7 @@ https://www.w3schools.com/cssref/sel_hover.asp
 
 ![final_mobile_desktop](https://user-images.githubusercontent.com/79812118/196825456-9f434097-2662-4f61-a3af-bd8c1a47ea8e.jpg)
 
-Hover status final:
+                                                                     Hover status final:
 
 ![ojo_status](https://user-images.githubusercontent.com/79812118/196825631-ecb84a02-a3be-4822-a385-197f6c2a5a4c.jpg)
 
