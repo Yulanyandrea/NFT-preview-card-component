@@ -1,24 +1,27 @@
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;700&display=swap');
 .container{
-    margin: 0%;
-    padding: 0%;
     background-color:hsl(217, 54%, 11%) ;
     font-family: 'Outfit', sans-serif;
     border-radius: 20px;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    max-width: 90%;
+    margin: auto;
+    justify-content: center;
+    padding: 25px;
+    padding-bottom: 5px;
 }
 
 .principal_imagen {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 10%;
+    /* margin-top: 10%; */
 }
 
 .first {
-    width: 70%;
+    width: 100%;
     border-radius: 20px; 
       
 }
@@ -26,7 +29,7 @@
 .eye{
     display: none;
     position: absolute;
-    /* background: rgba(255,255,255,.4); */
+    /* padding-right: 5px; */
 }
 
 .first:hover + .eye{
@@ -39,15 +42,15 @@
 
 
 .paragraph{
-    color: white;
     display: flex;
     flex-direction: column;
     position: relative;
-    left: 15%;
+    line-height: 27px;
 }
 
 h1{
-    font-size: 30px;
+    font-size: 18px;
+    color: white;
 }
 
 h1:hover{
@@ -55,14 +58,15 @@ h1:hover{
 }
 
 p{
-    margin-right: 20%;
+   color: rgba(210, 206, 206, 0.868);
 }
 
 .icons{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding: 0% 13% 3% 15%
+    padding-top:  10px; 
+    padding-bottom: 10px;
 }
 
 .box_diamond{
@@ -76,7 +80,7 @@ p{
 }
 
 #p1{
-    font-size: 17px;
+    font-size: 13px;
     color: aqua;
     margin: 0 0 0 7%;
 }
@@ -86,35 +90,35 @@ p{
 }
 
 #p2{
-    font-size: 17px;
+    font-size: 13px;
     color: hsl(215, 51%, 70%);
     margin: 0 0 3%;
 }  
 
 hr{
     border: 1px solid hsl(215, 32%, 27%);
-    width: 75%;
+    width: 100%;
 }
 
 .feet{
     display: flex;
-    /* align-items: center;
-    justify-content: center; */
-    margin-bottom: 10%;
-    margin-left: 15%;
+    padding: 10px;
 }
 
 #boy{
-    width: 10%;
+    width: 15%;
     height: 10%;
     border: 2px solid white;
     border-radius: 40px;
+    
 }
 
 #p3{
     display: flex;
     color:hsl(215, 51%, 70%);
-    margin-left: 1rem;
+    font-size: 10px;
+    padding: 10px;
+    /* margin-left: 1rem; */
 }
 
 .name{
@@ -127,78 +131,10 @@ hr{
     color: aqua;
 }
 
-@media (min-width:300px) {
-    .container{
-        width: 100%;
-    }
+@media (min-width: 1200px) {
     
+    .container {
+      justify-content: center;
+      width:  290px;
+    }
 }
-@media (min-width:1200px) {
-    .container{
-        width: 30%;
-        margin-top: 10%;
-    }
-    .p0{
-        font-size: 18px;
-    }
-
-    #p1{
-        font-size: 18px;
-    }
-
-    #p2{
-        font-size: 18px;
-    }
-
-    .feet{
-        margin-top: 3%;
-    }
-
-    #boy{
-        border-radius: 58px;
-    }
-
-    #p3{
-        font-size: 18px; 
-    }
-    
-    
-}
-
-@media (min-width:2000px) {
-    .p0{
-        font-size: 35px;
-    }
-
-    #diamon{
-        max-width: 40px;
-        max-height: 35px;
-    }
-
-    #p1{
-        font-size: 30px;
-    }
-
-    #p2{
-        font-size: 33px;
-    }
-
-    #clock{
-        max-width: 40px;
-        max-height: 35px;
-    }
-
-    .feet{
-        margin-top: 3%;
-    }
-
-    #boy{
-        border-radius: 65px;
-    }
-
-    #p3{
-        font-size: 33px; 
-    }
-    
-}
- 
